@@ -1,0 +1,10 @@
+security:
+  basic:
+    enabled: false
+
+logging:
+  level:
+    com.example.demoFeignOAuth2: DEBUG
+    org.springframework:
+      web.client: DEBUG
+      security.oauth2: DEBUG
